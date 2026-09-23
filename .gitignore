@@ -1,0 +1,21 @@
+# Local secrets
+src/secrets.h
+.env
+
+# Arduino build artifacts
+*.bin
+*.hex
+*.elf
+build/
+.cache/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python/local tooling
+__pycache__/
+*.pyc
+.venv/
