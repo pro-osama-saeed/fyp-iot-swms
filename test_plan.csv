@@ -1,5 +1,0 @@
-scenario,setup,reported_lcd,reported_dashboard
-Empty bin,"about 3 m; rain off; network connected","Empty","0% fill"
-Half-full bin,"about 1.5 m; rain off; network connected","Middle","50% fill"
-Full bin,"less than 0.3 m; rain off; network connected","Full","90% fill"
-Rain condition,"rain sensor triggered regardless of ultrasonic reading","Rain Detected","fill updates paused"
