@@ -1,0 +1,8 @@
+metric,value,unit,notes
+Fill-level accuracy,99,percent,"Correct readings across reported tests"
+Rain detection accuracy,99,percent,"Correct readings across reported tests"
+Average dashboard latency,<2,seconds,"95% of reported cases were within 2 seconds"
+Successful transmissions,99,percent,"Automatic reconnection reported after brief dropouts"
+Ultrasonic calibration,+/-2,cm,"Approximate accuracy stated in the publication"
+Continuous run,12,hours,"Reported continuous test"
+Wi-Fi recovery distance,30,m,"Reported reconnection testing distance"

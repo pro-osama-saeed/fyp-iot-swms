@@ -1,0 +1,9 @@
+flowchart LR
+    A[HC-SR04 ultrasonic sensor] --> C[ESP32]
+    B[Rain sensor] --> C
+    C --> D[Fill / rain decision logic]
+    D --> E[16x2 I2C LCD]
+    D --> F[Wi-Fi]
+    F --> G[ThingSpeak]
+    G --> H[Remote dashboard]
+    C --> I[Status LED GPIO 2]

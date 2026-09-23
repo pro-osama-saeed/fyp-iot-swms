@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect width="100%" height="100%" fill="#0b1020"/>
+<text x="40" y="55" fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700">Operational Workflow - Redrawn from the documented behavior</text>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#a8b3c7"/></marker></defs>
+<rect x="90" y="120" rx="14" width="280" height="90" fill="#111a30" stroke="#4f76ff" stroke-width="2"/>
+<text x="230.0" y="154" text-anchor="middle" fill="#ffffff" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">Initialize</text>
+<text x="230.0" y="182" text-anchor="middle" fill="#b9c3d6" font-family="Inter,Arial,sans-serif" font-size="13">ESP32 • LCD • sensors • LED</text>
+<rect x="90" y="240" rx="14" width="280" height="90" fill="#111a30" stroke="#4f76ff" stroke-width="2"/>
+<text x="230.0" y="274" text-anchor="middle" fill="#ffffff" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">Connect Wi-Fi</text>
+<text x="230.0" y="302" text-anchor="middle" fill="#b9c3d6" font-family="Inter,Arial,sans-serif" font-size="13">Automatic retry if disconnected</text>
+<rect x="90" y="360" rx="14" width="280" height="90" fill="#111a30" stroke="#4f76ff" stroke-width="2"/>
+<text x="230.0" y="394" text-anchor="middle" fill="#ffffff" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">Check rain</text>
+<text x="230.0" y="422" text-anchor="middle" fill="#b9c3d6" font-family="Inter,Arial,sans-serif" font-size="13">Rain sensor state</text>
+<rect x="90" y="480" rx="14" width="280" height="90" fill="#111a30" stroke="#4f76ff" stroke-width="2"/>
+<text x="230.0" y="514" text-anchor="middle" fill="#ffffff" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">Rain detected?</text>
+<text x="230.0" y="542" text-anchor="middle" fill="#b9c3d6" font-family="Inter,Arial,sans-serif" font-size="13">Decision point</text>
+<rect x="90" y="650" rx="14" width="280" height="90" fill="#111a30" stroke="#4f76ff" stroke-width="2"/>
+<text x="230.0" y="684" text-anchor="middle" fill="#ffffff" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">Read ultrasonic</text>
+<text x="230.0" y="712" text-anchor="middle" fill="#b9c3d6" font-family="Inter,Arial,sans-serif" font-size="13">HC-SR04 distance</text>
+<rect x="500" y="650" rx="14" width="280" height="90" fill="#111a30" stroke="#4f76ff" stroke-width="2"/>
+<text x="640.0" y="684" text-anchor="middle" fill="#ffffff" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">Calculate status</text>
+<text x="640.0" y="712" text-anchor="middle" fill="#b9c3d6" font-family="Inter,Arial,sans-serif" font-size="13">Fill level / Empty / Middle / Full</text>
+<rect x="820" y="650" rx="14" width="280" height="90" fill="#111a30" stroke="#4f76ff" stroke-width="2"/>
+<text x="960.0" y="684" text-anchor="middle" fill="#ffffff" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">Update outputs</text>
+<text x="960.0" y="712" text-anchor="middle" fill="#b9c3d6" font-family="Inter,Arial,sans-serif" font-size="13">LCD + ThingSpeak</text>
+<rect x="500" y="480" rx="14" width="280" height="90" fill="#111a30" stroke="#4f76ff" stroke-width="2"/>
+<text x="640.0" y="514" text-anchor="middle" fill="#ffffff" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">Show rain status</text>
+<text x="640.0" y="542" text-anchor="middle" fill="#b9c3d6" font-family="Inter,Arial,sans-serif" font-size="13">LCD: Rain Detected; pause fill update</text>
+<line x1="230" y1="210" x2="230" y2="240" stroke="#a8b3c7" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="230" y1="330" x2="230" y2="360" stroke="#a8b3c7" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="230" y1="450" x2="230" y2="480" stroke="#a8b3c7" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="230" y1="570" x2="230" y2="650" stroke="#a8b3c7" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="370" y1="695" x2="500" y2="695" stroke="#a8b3c7" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="780" y1="695" x2="820" y2="695" stroke="#a8b3c7" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="370" y1="525" x2="500" y2="525" stroke="#a8b3c7" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="435" y="510" fill="#b9c3d6" font-family="Inter,Arial,sans-serif" font-size="13">YES</text>
+<line x1="230" y1="570" x2="500" y2="570" stroke="#a8b3c7" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="380" y="555" fill="#b9c3d6" font-family="Inter,Arial,sans-serif" font-size="13">NO -> continue</text>
+<path d="M 1100 650 C 1140 620 1140 170 370 165" fill="none" stroke="#64748b" stroke-width="2.5" stroke-dasharray="8 8" marker-end="url(#arrow)"/>
+<text x="990" y="200" fill="#64748b" font-family="Inter,Arial,sans-serif" font-size="12">repeat every configured reporting interval</text>
+<text x="600" y="840" text-anchor="middle" fill="#7f8aa3" font-family="Inter,Arial,sans-serif" font-size="12">Redrawn from the documented system workflow; original report flowchart unavailable.</text>
+</svg>

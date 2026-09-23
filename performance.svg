@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<rect width="100%" height="100%" fill="#0b1020"/>
+<text x="40" y="55" fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700">Reported Performance - Project Results</text>
+<text x="60" y="180" fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="16">Fill accuracy</text>
+<rect x="250" y="160" width="800" height="36" rx="18" fill="#17213a"/>
+<rect x="250" y="160" width="792" height="36" rx="18" fill="#4f76ff"/>
+<text x="1080" y="184" text-anchor="end" fill="#ffffff" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700">99%</text>
+<text x="60" y="270" fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="16">Rain accuracy</text>
+<rect x="250" y="250" width="800" height="36" rx="18" fill="#17213a"/>
+<rect x="250" y="250" width="792" height="36" rx="18" fill="#4f76ff"/>
+<text x="1080" y="274" text-anchor="end" fill="#ffffff" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700">99%</text>
+<text x="60" y="360" fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="16">Transmission success</text>
+<rect x="250" y="340" width="800" height="36" rx="18" fill="#17213a"/>
+<rect x="250" y="340" width="792" height="36" rx="18" fill="#4f76ff"/>
+<text x="1080" y="364" text-anchor="end" fill="#ffffff" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700">99%</text>
+<text x="60" y="450" fill="#f8fafc" font-family="Inter,Arial,sans-serif" font-size="16">Within 2s</text>
+<rect x="250" y="430" width="800" height="36" rx="18" fill="#17213a"/>
+<rect x="250" y="430" width="760" height="36" rx="18" fill="#4f76ff"/>
+<text x="1080" y="454" text-anchor="end" fill="#ffffff" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700">95%</text>
+<text x="600" y="580" text-anchor="middle" fill="#7f8aa3" font-family="Inter,Arial,sans-serif" font-size="12">Values transcribed from the accessible 2026 publication; this is not an independent benchmark.</text>
+</svg>
